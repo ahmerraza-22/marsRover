@@ -1,0 +1,100 @@
+/* *{
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+.sect1{
+    text-align: center;
+}
+.sect2{
+    text-align: center;
+}
+.sect3  {
+    text-align: center;
+}
+footer{
+    text-align: center;
+} */
+
+*{
+    box-sizing: content-box;
+}
+body{
+    background-color: white;
+}
+header{
+    background-image: url("https://science.nasa.gov/wp-content/uploads/2008/02/365-mer-1280-spirit.jpg?w=4096&format=jpeg") ; 
+
+}
+
+#nav-1, .div-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sect-1{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 500%;
+    color: black;
+}
+.sect-2{
+    text-align: start;
+    font-size: 20px;
+    color: azure;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.btn{
+    font-size: 12px;
+    font-family: sans-serif;
+    background-color: azure;
+    color: black    ;
+}
+a{
+  
+  footer{
+    text-align: center;
+  }  color: aliceblue;
+}
+.sect-3{
+    text-align: end;    
+    color: azure;
+    font-size: medium;
+}
+#paragraph{
+    font-size: larger;
+}
+footer{
+    text-align: center;
+}
+.sect-4{
+    color: azure;
+}
+
+h3{
+    text-align: center;
+}
+
+.rover{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.rover-2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
